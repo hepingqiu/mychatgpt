@@ -25,7 +25,7 @@
         :placeholder="placeHolder"
         class="self-input"
       ></el-input>
-      <i class="el-icon-position icon-style" @click="check"></i>
+      <i class="el-icon-position icon-style" @click="chat"></i>
     </div>
   </div>
 </template>
@@ -84,7 +84,7 @@ export default {
         this.placeHolder = "思考中...";
       }
     },
-    check(){
+    chat(){
         if (this.searchContent && !this.loading) {
         this.loading = true;
         let content = this.searchContent ;

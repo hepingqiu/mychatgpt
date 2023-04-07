@@ -1,7 +1,7 @@
 <template>
     <div class="main" id="main">
         <keep-alive>
-            <chat-gpt v-if=" tab == '聊天'"/>
+            <chat-gpt v-if=" tab == 'ChatGPT'"/>
         </keep-alive>
         <apply-info v-if=" tab == '应用'"/>
     </div>

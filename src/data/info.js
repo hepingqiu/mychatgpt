@@ -1,5 +1,5 @@
 export const info = {
-    chatTitle: '智能聊天机器人',
+    chatTitle: 'ChatGPT3.5',
     applyTitle: '应用中心',
     buttonName: '示例',
     buttonGenerateName: '生成',

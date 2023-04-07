@@ -17,7 +17,7 @@ export default {
   },
   data(){
     return {
-      curentTab: '聊天'
+      curentTab: 'ChatGPT'
     }
   },
   methods:{

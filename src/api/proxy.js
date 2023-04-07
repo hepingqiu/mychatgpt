@@ -1,14 +1,11 @@
 import axios from "axios";
 
 axios.defaults.headers['Content-Type'] = 'application/json;charset=utf-8'
-axios.defaults.headers['Authorization'] = 'Bearer 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'
+axios.defaults.headers['Authorization'] = 'Bearer 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'
 
-// 创建axios实例
 const service = axios.create({
-    // axios中请求配置有baseURL选项，表示请求URL公共部分
-    //baseURL: '/pro', //https://api.openai.com/v1/chat/completions
+    //baseURL: '/pro',
     baseURL: 'https://service-rv04cihe-1317641027.usw.apigw.tencentcs.com',
-    // 超时
     timeout: 120000 //10s
 })
 
